@@ -1,0 +1,57 @@
+/* Font styles */
+body {
+    font-family: 'Roboto', sans-serif !important; /* Apply Roboto font */
+    color: black !important; /* Set font color to black */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif !important; /* Apply Montserrat font */
+}
+
+/* Futuristic styles */
+.stApp > header {
+    background-color: transparent;
+}
+
+.stApp {
+    --initial-sidebar-state: expanded; /* Define initial sidebar state */
+    --layout: wide; /* Define layout */
+    margin: auto;
+    font-family: 'Roboto', sans-serif !important;
+    overflow: auto;
+    background: linear-gradient(315deg, #4f2991 3%, #7dc4ff 38%, #36cfcc 68%, #000000 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+/* Apply initial_sidebar_state and layout */
+.stApp[data-layout="wide"] {
+    width: 100%;
+}
+
+.stApp[data-initial-sidebar-state="expanded"] aside {
+    width: 20rem; /* Width of the expanded sidebar */
+}
+
+/* Additional styles for a futuristic look */
+.stApp > header .css-1bxcl3h {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.stApp > header .css-1bxcl3h:hover {
+    color: #FFD700; /* Change color on hover */
+}
+
+/* Additional futuristic styles */
+.stApp > header {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.stApp > header .css-1bxcl3h {
+    text-transform: uppercase; /* Uppercase header text */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Add more futuristic styles as needed */
